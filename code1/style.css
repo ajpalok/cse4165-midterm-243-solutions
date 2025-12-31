@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    /* margin-top: 100px; */
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+}
+
+header .header_container {
+    width: 80%;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(59, 59, 59, 0.1);
+}
+
+.logo {
+    color: #00b990;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 45px;
+}
+
+.nav {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.nav select {
+    font-size: 18px;
+    border: none;
+}
+
+.active {
+    color: #00b990;
+}
+
+.nav .button {
+    color: white;
+    background-color: #00b990;
+    padding: 9px 15px;
+    border-radius: 12px;
+}
+
+.hero {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.hero .left {
+    width: 50%;
+    padding: 0 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.left h2 {
+    font-size: 72px;
+}
+
+.left h2 span {
+    color: #00b990;
+}
+
+.left p {
+    font-size: 24px;
+    margin: 24px 0;
+}
+
+.left button {
+    color: white;
+    background-color: #00b990;
+    font-size: 18px;
+    padding: 18px 28px;
+    border: none;
+    border-radius: 6px;
+}
+
+.hero .sideimg {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* z-index: -10; */
+    /* background-image: url(./image/pexels-christa-grover-977018-2121121.jpg);
+    background-size: cover; */
+}
+
+.sideimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide_left, .slide_right {
+    width: fit-content;
+    color: white;
+    background-color: #00b990;
+    padding: 16px 24px;
+    margin: 2px 0;
+    border-radius: 100%;
+    font-size: 24px;
+    position: absolute;
+    left: -32px;
+}
+
+.slide_left {
+    top: 40%;
+}
+
+.slide_right {
+    top: 50%;
+}
+
+.footer form {
+    width: 100%;
+    background-color: #00b990;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    padding: 20px 0;
+}
+
+.footer form input, .footer form select {
+    width: 25%;
+    padding: 18px 12px;
+    color: #696969;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.footer form button {
+    padding: 12px 100px;
+    color: white;
+    background-color: #0d2e51;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+}
